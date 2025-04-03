@@ -1,15 +1,16 @@
 import "./Product.css";
 
 
-function Product({ title, price, features }) {
-    const list = features?.map((feature, index) => <li key={index}>{feature}</li>);
+function Product({ title, price }) {
     return (
         <div className="Product">
             <h3>{title}</h3>
             <h4>Price:{price}</h4>
-            <p>{list}</p>
+            {price > 30000 ? <p>"Discount of 5%"</p> : <a href="#">Get Discount</a>}
 
         </div>
-    )
+    );
+
+
 }
 export default Product;
