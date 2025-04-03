@@ -3,14 +3,24 @@ import Product from "./Product";
 
 function ProductTab() {
 
-    //let options2 = ["hi-tech", "durable", "fast"];
-    //let options2 = { a: "high-tech", b: "durable", c: "fast" };
+    let styles = {
+        display: "flex",
+        flexwrap: "wrap",
+        justifyContent: "center",
+        alignItems: "center",
+    };
     return (
         <>
-            <Product title="Phone" price={60000} />
-            <Product title="Tab" price={5000} />
-            <Product title="Mobile" price={1000} />
 
+            <div style={styles}>
+
+                <Product title="Logitech MX master" idx={0} />
+                <Product title="Apple Pencil 2nd Zen" idx={1} />
+                <Product title="Zebronics" idx={2} />
+                <Product title="Boat earbud Z2" idx={3} />
+
+
+            </div>
 
         </>
     )

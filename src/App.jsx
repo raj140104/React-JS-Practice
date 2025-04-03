@@ -1,12 +1,11 @@
 import './App.css';
-import Title from './Title';
-import Description from './Description';
 import Product from './Product';
-import ProductTab from './ProductTab'
+import ProductTab from './ProductTab';
 
 function App() {
   return (
     <>
+      <h1>Blockbuster DEALS!!</h1>
       <ProductTab />
 
     </>
