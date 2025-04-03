@@ -1,13 +1,11 @@
 import './App.css';
-import Product from './Product';
-import ProductTab from './ProductTab';
+
+import Button from './Button';
 
 function App() {
   return (
     <>
-      <h1>Blockbuster DEALS!!</h1>
-      <ProductTab />
-
+      <Button />
     </>
   );
 }
