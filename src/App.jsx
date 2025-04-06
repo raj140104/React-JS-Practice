@@ -1,10 +1,11 @@
 import './App.css';
 import LikeButton from './LikeButton';
+import LudoBoard from './LudoBoard';
 
 function App() {
   return (
     <>
-      <LikeButton />
+      <LudoBoard />
 
 
     </>
